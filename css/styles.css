@@ -1,0 +1,40 @@
+/* GLOBAL STYLES */
+/*:root {
+   --background: rgba(238, 121, 181, .5);
+} */
+
+* {
+  box-sizing: border-box;
+  transition: all ease-in-out 250ms;
+}
+
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+a {
+  color: pink;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 95%;
+}
+
+.hero-section {
+  background-image: url(../images/kv-hero.jpg);
+  background-position: top;
+  background-size: cover;
+  /* margin-left: -2.5%; */
+  padding: 75em 0;
+  width: 100vw;
+}
